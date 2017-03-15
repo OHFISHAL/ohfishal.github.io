@@ -1,0 +1,13 @@
+@font-face{
+  font-family: "28DaysLater";
+  src: url('28DaysLater.eot');
+  src: url('28DaysLater.ttf') format('truetype'),
+       url('28DaysLater.eot?#iefix') format('embedded-opentype'), 
+       url('28DaysLater.woff') format('woff'), 
+       url('28DaysLater.ttf')  format('truetype'), 
+       url('28DaysLater.svg#svgFontName') format('svg'),
+	   url('28DaysLater.otf') format ('opentype');
+}
+h2 {
+  font-family: '28DaysLater';
+}
