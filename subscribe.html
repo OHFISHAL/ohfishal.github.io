@@ -75,23 +75,45 @@
 
 </body>
    </div>
-   <body>
-   <a href="https://shop.spreadshirt.com/OHFISHALShop"><h4>OHFISHAL_Shop Full Site <font size="2">(Click Here)</font></h4></a>
-   <div id="myShop"><a href="//shop.spreadshirt.com/OHFISHALShop">OHFISHALShop</a></div>
+   <div class="main">
+    <h5>The Buttons Might Take a Sec To Load So Wait...</h4>
+    <h4>Subscribe To OHFISHAL_Batman:</h4>
+    <script src="https://apis.google.com/js/platform.js"></script>
 
 <script>
-	var spread_shop_config = {
-		shopName: 'OHFISHALShop',
-		locale: 'us_US',
-		prefix: '//shop.spreadshirt.com',
-		baseId: 'myShop'
-	};
+  function onYtEvent(payload) {
+    if (payload.eventType == 'subscribe') {
+      // Add code to handle subscribe event.
+    } else if (payload.eventType == 'unsubscribe') {
+      // Add code to handle unsubscribe event.
+    }
+    if (window.console) { // for debugging only
+      window.console.log('YT event: ', payload);
+    }
+  }
 </script>
 
-<script type="text/javascript" src="//shop.spreadshirt.com/shopfiles/shopclient/shopclient.nocache.js"></script>
-   </body>
-   </div>
-   <head>
+<div class="g-ytsubscribe" data-channelid="UC94D_gBCJ_Pb-LE0i4fdZWA" data-layout="full" data-count="default" data-onytevent="onYtEvent"></div>
+   <h4>Subscribe To OHFISHAL_Flash:</h4>
+   <script src="https://apis.google.com/js/platform.js"></script>
+
+<script>
+  function onYtEvent(payload) {
+    if (payload.eventType == 'subscribe') {
+      // Add code to handle subscribe event.
+    } else if (payload.eventType == 'unsubscribe') {
+      // Add code to handle unsubscribe event.
+    }
+    if (window.console) { // for debugging only
+      window.console.log('YT event: ', payload);
+    }
+  }
+</script>
+
+<div class="g-ytsubscribe" data-channelid="UCIhmnhUdrthND6n-pIuXi4g" data-layout="full" data-count="default" data-onytevent="onYtEvent"></div>
+    </div>
+  </div>
+  <head>
  <style type ="text/css" >
    .footer{ 
        position: fixed;     
@@ -106,4 +128,3 @@
 </body>
 </body>
 </html>
-
